@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="dark&white.css">
+    <title>Code sikho</title>
+  </head>
+
+  <body id="body">
+    <!-- HEDDER -->
+    <header>
+      <a href="index.html" class="logo">
+        <img src="logo1.png" alt="Code sikho" width="200px" class="logo12" />
+      </a>
+      <nav class="hod">
+        <ul>
+          <!-- CONTACT US -->
+          <li>
+            <button>
+            Contact Us
+          </button>
+          </li>
+
+          <!-- LOGIN -->
+          <li>
+            <button
+              class="loginbutton1"
+              onclick="document.getElementById('id01').style.display='block'"
+              style="width: auto"
+            >
+            Login
+            </button>
+          </li>
+           
+          <button id="modeToggle" class="toggle-button">
+            <span class="icon sun">&#9728;</span>
+            <span class="icon moon">&#9790;</span>
+          </button>
+          
+
+        </ul>
+      </nav>
+    </header>
+
+     <div id="id01" class="modal"> <!--  LOGIN POP UP -->
+      <form class="modal-content animate" action="#" method="post">
+        <div class="imgcontainer">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >×</span
+          >
+          <h2 class="avatar">Sign in</h2>
+        </div>
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input
+            class="login"
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            id="uname"
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            class="login"
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            id="psw"
+          />
+
+          <span class="psw" style="float: right"
+            > <a href="#">Forgot password?</a></span
+          >
+          <button class="loginbutton" type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" />
+            Remember me
+          </label>
+          <br />
+          <h4 style="margin-left: 47%">OR</h4>
+          <button class="loginbuttong" type="submit">
+            Continue With Google
+          </button>
+          <button class="loginbuttonl" type="submit">
+            Continue with GitHub
+          </button>
+          <div style="background-color: #f1f1f1; margin-right: 23%">
+            <span class="pswl" style="float: right"
+              >Don't Have an account? <a href="#">Create -></a></span
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- 2nd nav -->
+    <div class="stecky">
+      <div class="menu">
+        <a href="index.html"
+          ><img src="home_icon.png" alt="HOME" width="25px"
+        /></a>
+        <div id="mySidenav" class="navi">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >×</a
+          >
+          <div><a href="#">All Tutorials</a></div>
+          <div><a href="videoes.html">Videos</a></div>
+          <div><a href="#">Notes</a></div>
+          <div><a href="#">Practice Problems</a></div>
+          <div><a href="#">Books</a></div>
+          <div><a href="#">University Space</a></div>
+        </div>
+        <span
+          style="font-size: 30px; cursor: pointer; display: none"
+          class="n"
+          onclick="openNav()"
+          >☰</span
+        >
+        <input
+          class="search"
+          type="text"
+          name="search"
+          placeholder="Search... "
+        />
+      </div>
+    </div>
+
+    <!-- first div -->
+    <div class="first1">
+      <div class="daco" style="margin: 40px 90px">
+        <img src="io.svg" alt="" />
+      </div>
+
+      <div class="picture">
+        <!-- <h2 class="hello">Hello, Students.....</h2> -->
+        <div class="inte">
+          <h1 class="hellow" style="color: #ff9933">Code</h1>
+          <h1 class="hellow" style="color: #ffffff">सीखेगा</h1>
+          <h1 class="hellow" style="color: #138808">Bharat</h1>
+        </div>
+        <main class="c1">
+          <p>Hello 👋 Programmar</p>
+          <section class="animation1">
+            <div class="first" style="text-transform: uppercase">
+              <div>learn Code</div>
+            </div>
+            <div class="second" style="text-transform: uppercase">
+              <div>Do practice</div>
+            </div>
+            <div class="third" style="text-transform: uppercase">
+              <div>Have Fun</div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <div class="daco" style="margin: -90px 90px; float: right">
+        <img src="io.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="artical">
+      <div class="articalbox1">
+        <p
+          class="a"
+          style="
+            font-size: 45px;
+            color: rgba(0, 0, 0, 0.792);
+            margin-left: 20px;
+          "
+        >
+          ”
+        </p>
+        <h3 class="texta2">
+          Everybody should learn to program a computer, because it teaches you
+          how to think.
+        </h3>
+        <h4 class="texta">― Steve Jobs</h4>
+      </div>
+      <div class="articalbox2">
+        <p
+          class="a"
+          style="font-size: 45px; color: rgb(0, 0, 0); margin-left: 20px"
+        >
+          ”
+        </p>
+        <h3 class="texta2">
+          Programming is the art of telling another human being what one wants
+          the computer to do.
+        </h3>
+        <h4 class="texta">― Donald Ervin Knuth</h4>
+      </div>
+        </p>
+      </div>
+    <div class="blankPage" id="blankPage">
+      
+    </div>
+    <footer>
+      <div class="footer">
+        <h4 class="headding">Made By Team Loosers</h4>
+      </div>
+    </footer>
+    <script>
+      var modal = document.getElementById("id01");
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    <script src="dark&white.js"></script>
+  </body>
+</html>
